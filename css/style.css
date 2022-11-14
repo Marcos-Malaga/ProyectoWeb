@@ -1,3 +1,7 @@
+
+body{
+    background-color: #FFF9AA;
+}
 .boton {
     border: 3px solid #AB47BC; /*anchura, estilo y color borde*/
     padding: 10px; /*espacio alrededor texto*/
