@@ -13,6 +13,16 @@ body{
     border-radius: 50px; /*bordes redondos*/
     }
 
+.boton2 {
+
+    padding: 3px; /*espacio alrededor texto*/
+    background-color: #18FFFF; /*color botón*/
+    color: #FFF9AA; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
 .title {
     border: 5px solid #AB47BC; /*anchura, estilo y color borde*/
     padding: 7px;
@@ -22,13 +32,112 @@ body{
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
     text-align:center;
+    font-size: 5vw;
     color: #FFF9AA;
 }
 
+
+
 .menu {
-    text-align:center;
+    text-align:justify;
+    font-size: 2vw;
+    letter-spacing: 5px;
 }
 
 .menu2 {
     text-align:left;
+    font-size: 2vw;
+}
+
+.plus{
+    float: left;
+    border: 5px solid #de1d6a; /*anchura, estilo y color borde*/
+    padding: 7px;
+    background-color: #ffeacc;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align:center;
+    color: #3f324d;
+}
+
+
+.main{
+    border: 3px solid #6bb38e; /*anchura, estilo y color borde*/
+    
+    float: left;
+    background-color: #f8dac2;
+    
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    text-align:left;
+    font-size: 1vw;
+    color: #a4c972;
+}
+
+.foot {
+    
+    padding: 3px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 7px;
+    text-align:left;
+    color: #646b8d;
+}
+
+.blockquote{
+    border: 1px solid #00a8c6; /*anchura, estilo y color borde*/
+
+    
+    background-color: #efece5;
+    
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    text-align:center;
+    color: #19274e;
+}
+
+.input{
+
+    border: 1px solid #000000;
+    padding: 7px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #000000;
+}
+
+.details{
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif;
+    text-align:left;
+    color: #AB47BC;
+}
+.detailsB{
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif;
+    text-align:left;
+    color: #18FFFF;
+}
+
+.iframe{
+    
+    border-radius: 50px;
+    padding: auto;
+}
+.iframeB{
+    
+    border-radius: 50px;
+    padding: auto;
+}
+
+.aside{
+    float: right;
+}
+
+#relaxImagen{
+    border-radius: 50px;
 }

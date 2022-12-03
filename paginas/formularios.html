@@ -19,45 +19,83 @@
         <a class="boton" href="/paginas/texto.html" target="_self">Texto</a>
         <a class="boton" href="#lorem">Lorem</a>   
     </nav>
+    <br><br>
+    <fieldset>
+        <legend>All Formularios</legend>
+        <br>
+        <select name="opciones" id="opciones1" size="1">
+            <option value="1">&lt;input type = "text"</option>
+            <option value="2">&lt;input type = "email"</option>
+            <option value="3">&lt;input type = "tel"</option>
+            <option value="1">&lt;input type = "date"</option>
+            <option value="2">&lt;input type = "file"</option>
+            <option value="3">&lt;input type = "color"</option>
+            <option value="1">&lt;input type = "password"</option>
+            <option value="2">Atributos</option>
+            <option value="3">Valor atributo</option>
+        </select>
+        
+    </fieldset>
 
-    <br><br> <br>
-
+    <br><br>
+    <fieldset>
     <blockquote><p>&lt;form action ="data.php"&gt;</p></blockquote>
     <form action="data.php"> 
         <!--lima Cada blockquote sice las etiquetas y valores del atributo 'type'-->
         <blockquote>  
-        <blockquote>&lt;input type = "y" name = "" id = "" value = "" maxlength = ""&gt;</blockquote>
-        <blockquote>type = "text"</blockquote>
-        <input type="text" name="nombre" maxlength="9" id="nombre" value="Nombre"><br><br>
-        <blockquote>type = "email"</blockquote>
-        <input type="email" name="email" id="email1" value="@email"><br><br>
-        <blockquote>type = "tel"</blockquote>
-        <input type="tel" value="912012000"><br><br>
-        <blockquote>type = "date"</blockquote>
-        <input type="date" name="" id=""><br><br>
-        <blockquote>type = "datetime"</blockquote>
-        <input type="datetime" name="" id=""><br><br>
-        <blockquote>type = "datetime-local"</blockquote>
-        <input type="datetime-local" name="" id=""><br><br>
-        <blockquote>type = "month"</blockquote>
-        <input type="month"><br><br>
-        <blockquote>type = "file"</blockquote>
-        <input type="file" name="" id=""><br><br>
-        <blockquote>type = "color"</blockquote>
-        <input type="color"><br><br>
-        <blockquote>type = "password"</blockquote>
-        <input type="password" name="" id=""><br><br>
-        <blockquote>type = "button"</blockquote>
-        <input type="button"><br><br>
-        <blockquote>type = "checkbox"</blockquote>
-        <input type="checkbox" name="" id=""><br><br>
-        <blockquote>type = "radio"</blockquote>
-        <input type="radio"><br><br>
+        <blockquote class="blockquote">&lt;input type = "~" name = "" id = "" value = "" maxlength = ""&gt;</blockquote>
+
+        <input type="text" name="" id="">
+        <blockquote class="blockquote">&lt;input type = "text"</blockquote>
+        <input class="input" type="text" name="nombre" maxlength="9" id="nombre" placeholder="Nombre"><br><br>
+
+        
+        <blockquote class="blockquote">&lt;input type = "text" pattern="d{4}[A-Z]{3}"</blockquote>
+        <input class="input" type="text" pattern="d{4}[A-Z]{3}"><br><br>
+    
+        <blockquote class="blockquote">&lt;input type = "email"</blockquote>
+        <input class="input" type="email" name="email" id="email1" placeholder="@email" required><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "tel"</blockquote>
+        <input class="input" type="tel" placeholder="+34 912012000"><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "date"</blockquote>
+        <input class="input" type="date" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "datetime"</blockquote>
+        <input class="input" type="datetime" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "datetime-local"</blockquote>
+        <input class="input" type="datetime-local" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "month"</blockquote>
+        <input class="input" type="month"><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "file"</blockquote>
+        <input class="input" type="file" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "color"</blockquote>
+        <input class="input" type="color"><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "password"</blockquote>
+        <input class="input" type="password" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "button"</blockquote>
+        <input class="input" type="button"><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "checkbox"</blockquote>
+        <input class="input" type="checkbox" name="" id=""><br><br>
+
+        <blockquote class="blockquote">&lt;input type = "radio"</blockquote>
+        <input class="input" type="radio"><br><br>
+
+    
         <!-- naranja <blockquote>type = "hidden"</blockquote>-->
         <input type="hidden"><br><br>
-        <blockquote>type = "text"</blockquote>
-        <input type="image" ><br><br>
-        <blockquote>type = "text"</blockquote>
+       
+        <input type="image" src="/imagen/Polonia_1920x1080.jpg" height="50%" width="50%"><br><br>
+
+        <blockquote>type = "search"</blockquote>
         <input type="search"><br><br>
         
     </blockquote>
@@ -73,7 +111,8 @@
 
         <blockquote>&lt;&#47;form&gt;</blockquote>
         
-        
+    </fieldset>
+
     </form>
 
 </body>
